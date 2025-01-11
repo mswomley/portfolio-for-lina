@@ -6,6 +6,11 @@ body {
   padding-bottom: 50px;
 }
 
+p {
+  font-size: 2em;
+  text-align: center;
+}
+
 .underdog-regular {
   font-family: "Underdog", serif;
   font-weight: 400;
@@ -130,4 +135,22 @@ body {
 .right { 
   grid-area: right; 
   width: 100%;
+}
+
+.vert {
+  width: 40%;
+  height: auto;
+  position: relative;
+  text-align: center;
+  margin: 100px auto auto auto;
+  display: block;
+}
+
+.horiz {
+  width: 70%;
+  height: auto;
+  position: relative;
+  text-align: center;
+  margin: 150px auto auto auto;
+  display: block;
 }
