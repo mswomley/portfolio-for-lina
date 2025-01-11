@@ -18,7 +18,6 @@ import ow from './images/ow.png'
    export default function Color() {
         return (
             <div className="outer">
-            <div className="inner"><img className="vert" src={eyes} alt="img1"/></div>
             <div className="inner"><img className="horiz" src={hand} alt="img4"/></div>
             <div className="inner"><img className="vert" src={buoy} alt="img2"/></div>
             <div className="inner"><img className="vert" src={swirl} alt="img3"/></div>
@@ -30,6 +29,7 @@ import ow from './images/ow.png'
             <div className="inner"><img className="vert" src={fairy} alt="img4"/></div>
             <div className="inner"><img className="vert" src={figure} alt="img4"/></div>
             <div className="inner"><img className="vert" src={ow} alt="img4"/></div>
+            <div className="inner"><img className="vert" src={eyes} alt="img1"/></div>
         </div>
         );
       }
